@@ -639,6 +639,57 @@ body {
 
 }
 
+/* /////////////////// AGRADECIMIENTO //////////////////// */
+
+
+.agradecimiento__contenedor {
+    padding: 1em 0;
+}
+
+.parrafo--agradecimiento {
+    padding: 1em 2em;
+    line-height: 1.4;
+    font-family: var(--font-mali);
+    font-weight: 500;
+    color: var(--color-titulos);
+}
+
+.agradecimiento__title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: var(--font-mali);
+    font-weight: 900;
+    text-decoration: underline;
+    color: var(--color-titulos);
+}
+
+.agradecimiento__fotos {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 1em;
+    width: clamp(100px, 90%, 500px);
+}
+
+.agradecimiento__picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agradecimiento__img {
+    width: clamp(50px, 100%, 170px);
+    border-radius: 50%;
+}
+
+.agradecimiento__name {
+    margin: 1em 0 0 0;
+    font-size: 1.4rem;
+    text-align: center;
+   color: var(--color-titulos);
+}
+
+
 /* /////////////////// ALBUM DE FOTOS ////////////////////////// */
 
 
