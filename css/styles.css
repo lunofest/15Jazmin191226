@@ -41,7 +41,9 @@ body {
     opacity: .75;
 }
 
-
+HTML, body{
+Overflow-x: hidden
+}
 /* ///////////////// Musica /////////////////////////// */
 
 
